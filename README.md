@@ -5,7 +5,6 @@ A realistic digital-banking simulation with real-time fraud detection.
 ## Run it
 
 ```bash
-cp .env.example .env            # set JWT_SECRET (e.g. openssl rand -hex 32)
 docker compose up --build       # mongo (replica set) + redis + ml + backend + frontend
 docker compose exec backend npm run seed      # demo data (re-run any time; it wipes the DB)
 ```
