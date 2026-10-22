@@ -1,6 +1,4 @@
 # CertiFlow
-<<<<<<< HEAD
-
 A realistic digital-banking simulation with real-time fraud detection.
 **Stack:** React 19 + Vite (frontend) · Node/Express 5 + MongoDB (API) · Redis (sessions, behaviour state, locks, rate limits, caches, live events) · Python/scikit-learn (fraud model) · Docker Compose.
 
