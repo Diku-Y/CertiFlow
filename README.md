@@ -1,4 +1,5 @@
 # CertiFlow
+<<<<<<< HEAD
 
 A realistic digital-banking simulation with real-time fraud detection.
 **Stack:** React 19 + Vite (frontend) · Node/Express 5 + MongoDB (API) · Redis (sessions, behaviour state, locks, rate limits, caches, live events) · Python/scikit-learn (fraud model) · Docker Compose.
@@ -39,3 +40,6 @@ cd backend && npm test          # feature-engine parity vs Python, Redis layer, 
 cd ml && python tests/test_ml.py   # scoring, validation, drift, retrain → promote → rollback
 ```
 `npm run typecheck` runs `tsc`; `npm run build` for the frontend is `vite build` (type-checking is separate: `npm run typecheck`).
+=======
+CertiFlow is a full-stack digital banking simulation featuring real-time fraud detection using machine learning, secure transactions, behavioural analysis, and role-based dashboards for customers, fraud analysts, and administrators. Built with React, Node.js, MongoDB, Redis, and Python.
+>>>>>>> 29eb8a630417006f891069f9d7e3826eb7c38222
